@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.App-header {
+  background-color: #191919;
+  height: 70px;
+  width:100%;
+}
+.box {
+  float :left;
+  width:50%;
+  text-align: center;
+  padding:15px ;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+ font-size: 30px;
+ padding-left: 10px;
+ color:white;
+}
+
+.search-bar {
+  margin-top:7px;
+}
+input {
+  border-color: #323232;
+  border-style:none;
+  background-color: #323232;
+  border-radius: 14px;
+  height:29px;
+  padding-left:10px;
+  color:white;
+  width:30%
+}
+
+@media screen and (max-width:850px){
+ .App-header {
+   width:100%;
+ }
+  input {
+    width:70%;
+  }
+}
+*:focus {
+    outline: none;
+}
+

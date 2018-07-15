@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+.outer-boundary {
+    background-image:url('https://images.unsplash.com/photo-1523006833682-76d3571494ef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=761fa19ff06b221b8451384e00ba3cfc&auto=format&fit=crop&w=1500&q=80://fondopantalla.com.es/file/732/1366x768/crop/fondo-de-pantalla-de-textura-de-piel-negra.jpg');
+    height:-webkit-fill-available;
+    width: 100%;
+    position:absolute;
+}
+
+.image-section{
+    float: left;
+    width:40%;
+}
+.upper-info {
+    float:left;
+    margin-left:-90px; 
+}
+.rating-section {
+    margin-left:15%;
+    align-items: center;
+    
+}
+.rotten-rating {
+    padding-top:10px;
+    line-height:10px;
+    width:20%; 
+    background-color: brown;
+    border-radius:35px;
+    color:white;
+}
+.imdb-rating {
+    margin-left: 5%;
+    padding-top:10px;
+    line-height:10px;
+    background-color: brown;
+    border-radius:35px;
+    color:white;
+}
+.watched-button {
+    background-color: #badc58;
+    border-radius:5px;
+    width:30%;
+    margin: 38px 0 0 227px;
+    height:40px;
+}
+.watched-button span {
+    color:black;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+}
+.not-avail {
+    margin-top: 1px;
+}
+h1 {
+    text-align: center;
+}
+ img {
+   height:310px;
+   width:50%;
+   border-radius: 5%;
+   margin-left:163px;
+}
+.row {
+    float:left;
+    width:40%;
+}
+.clearfix::after {
+    content: "";
+    clear: all;
+    display: table;
+}
+.discription{
+    width:50%;
+    margin-left: 35%;
+    background-color:#535c68;
+    border-radius: 20px;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {   
+    width:60%;
+    background-color: #222f3e;
+    position:inherit;
+    margin-top:1%;
+    margin-right:20%;
+    margin-left: 20%;
+    border-radius: 30px;
+}
+.row {
+    float:left; 
+}
+.row img {
+    width:30%;
+    height:10%;
+    margin-left:12px;   
+}
+.container::after {
+    content: "";
+    clear: all;
+    display: table;
+}
